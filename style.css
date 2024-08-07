@@ -1,7 +1,21 @@
+.body{
+    background-color: rgb(25,25,25);
+    overflow-x: hidden
+}
+.navbar{
+    background-color: black;
+}
 #search{
-    width: 300px;
+    width: 450px;
     height: 40px;
     border-radius: 10px;
     border: none;
     padding: 0 10px;
+}
+.main{
+    position: relative;
+    }
+#text{
+    color: white;
+    font-size: 25px;
 }
