@@ -14,8 +14,39 @@
 }
 .main{
     position: relative;
+
     }
 #text{
     color: white;
     font-size: 25px;
+}
+@media screen and (max-width: 1200PX){
+    .main{
+           margin-top:80px ;
+    }
+    
+}
+@media screen and (max-width: 900PX){
+    .main{
+           margin-top:80px ;
+    }
+    
+}
+@media screen and (max-width: 650PX){
+    .main{
+           margin-top:100px ;
+    }
+    
+}
+@media screen and (max-width: 500PX){
+    .main{
+           margin-top:100px ;
+    }
+    
+}
+@media screen and (max-width: 360PX){
+    .main{
+           margin-top:120px ;
+    }
+    
 }
