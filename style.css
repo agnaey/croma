@@ -21,6 +21,45 @@
     font-size: 25px;
 }
 
+/* #element{
+  animation:2s forwards;
+  animation-timing-function:scroll() ;
+} */
+
+.scrollhd{
+  color: white;
+  position:absolute;
+  top: 25%;
+  left: 47%;
+  font-size: 2vw;
+}
+.scrolldef{
+  color:white;
+  position:absolute;
+  top: 45%;
+  left: 47%;
+  font-size: 1vw;
+
+}
+.readmore{
+  position: absolute;
+  top: 55%;
+  left: 47%;
+}
+.readmorebtn{
+  font-size: 1vw;
+  padding: 6px 10px;
+  border-style: solid;
+  border-color: #08c485;
+  color: black;
+  border-width: 1px;
+  border-radius: 9px;
+  text-decoration: none;
+  background-color: #08c485;
+}
+.readmorebtn:hover{
+  background-color: #47d4a5;
+}
 
 
 
