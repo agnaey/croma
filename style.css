@@ -33,6 +33,14 @@
   left: 47%;
   font-size: 2vw;
 }
+/* .moveFromTop{
+  animation-name: moveFromRight}
+@keyframes moveFromRig {
+  from {
+    transform: translateX(800px)
+  }
+} */
+
 .scrolldef{
   color:white;
   position:absolute;
@@ -150,3 +158,36 @@
     }
     
 }
+
+/* .main1 #demo2 .carousel-inner:nth-child(1) .element .scrollhd,
+.main1 #demo2 .carousel-inner:nth-child(1) .element .scrolldef,
+.main1 #demo2 .carousel-inner:nth-child(1) .element .readmore
+{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s 1s linear 1 forwards;
+}
+@keyframes showContent{
+    to{
+        transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+.slider .list .item:nth-child(1) .element .scrollhd{
+  animation-delay: 0.6s !important;
+}
+.slider .list .item:nth-child(1) .element .scrolldef{
+  animation-delay: 0.8s !important;
+}
+.slider .list .item:nth-child(1) .element .readmore{
+  animation-delay: 1s !important;
+} */
+
+/* .slider .next .list .item:nth-child(1) .content .button{
+  animation-delay: 1s !important;
+} */
+

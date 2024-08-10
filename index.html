@@ -16,32 +16,77 @@
 
 <!-- -----------------------------------navbar start-------------------------- -->
 
-    <div class="navbar navbar-dark text-align-center fixed-top mb-5" id="nav1">
-        <div class="container container-fluid">
-            <div class="d-flex gap-4">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">Menu
-                    <span class="navbar-toggler-icon">
-                    </span>
-                </button>
-                <img src="images/cromologo1.png" alt="" style="margin-left: 0;">
-            </div>
+<nav class="navbar navbar-dark text-align-center fixed-top mb-5" id="nav1">
+  <div class="container-fluid">
+      <div class="d-flex gap-4">
+        <a class="navbar-brand" href="#">
+          <img src="images/cromologo1.png" alt="Croma Logo">
+      </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <i class="fa-solid fa-bars"></i> Menu
+          </button>
+          
+        
+      </div>
 
-            <form class="d-flex">
-                <input id="search" class="form-control me-2 " type="text" placeholder="What are you looking for?">
-                <i class="fa-solid fa-magnifying-glass text-secondary m-3"></i></button>
-              </form>
-            <li class="text-white "><i class="fas fa-map-marker-alt text-white"></i> Mumbai, 400049<i class="fa-solid fa-pen text-white"></i></li>
+      <form class="d-flex d-none d-md-flex">
+          <input id="search" class="form-control me-2" type="text" placeholder="What are you looking for?">
+          <i class="fa-solid fa-magnifying-glass text-secondary m-3"></i>
+      </form>
 
-            <div class="d-flex gap-3">
-                <i class="fa-solid fa-user text-white"></i>
-                <i class="fa-solid fa-cart-shopping text-white"></i>
-            </div>
+      <ul class="navbar-nav d-none d-md-flex">
+          <li class="text-white">
+              <i class="fas fa-map-marker-alt text-white"></i> Mumbai, 400049
+              <i class="fa-solid fa-pen text-white"></i>
+          </li>
+  
+      </ul>
+      <div class="d-flex gap-3 d-none d-md-flex">
+        <i class="fa-solid fa-user text-white"></i>
+        <i class="fa-solid fa-cart-shopping text-white"></i>
+    </div>
 
-
-            
-
-       </div>
-   </div> 
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item bg-secondary">
+                  <a class="nav-link text-white" href="#"><i class="fa-solid fa-crown"></i> Exclusive At Croma</a>
+              </li>
+              <li class="nav-item bg-secondary">
+                  <a class="nav-link text-white" href="#"><i class="fa-solid fa-award"></i> Top Brands</a>
+              </li>
+              <li class="nav-item bg-secondary">
+                  <a class="nav-link text-white" href="#"><i class="fa-solid fa-store"></i> Croma Store Locator</a>
+              </li>
+              <li class="nav-item bg-secondary">
+                  <a class="nav-link text-white" href="#"><i class="fa-solid fa-gift"></i> Gift Card</a>
+              </li>
+              <li class="nav-item">
+                <h3   class="nav-link text-white"><b>Shop by Categor</b>             </h3>
+                  <ul class="navbar-nav">
+                      <li><a class="nav-link text-white" href="#">Televisions & Accessories</a></li>
+                      <li><a class="nav-link text-white" href="#">Home Appliances</a></li>
+                      <li><a class="nav-link text-white" href="#">Phones & Wearables</a></li>
+                      <li><a class="nav-link text-white" href="#">Computers & Tablets</a></li>
+                      <li><a class="nav-link text-white" href="#">Kitchen Appliances</a></li>
+                      <li><a class="nav-link text-white" href="#">Audio & Video</a></li>
+                      <li><a class="nav-link text-white" href="#">Health & Fitness</a></li>
+                      <li><a class="nav-link text-white" href="#">Grooming & Personal Care</a></li>
+                      <li><a class="nav-link text-white" href="#">Cameras & Accessories</a></li>
+                      <li><a class="nav-link text-white" href="#">Smart Devices</a></li>
+                      <li><a class="nav-link text-white" href="#">Gaming</a></li>
+                      <li><a class="nav-link text-white" href="#">Accessories</a></li>
+                      <li><a class="nav-link text-white" href="#">ZipCare</a></li>
+                      <form class="d-flex  d-md-flex">
+                        <input id="search" class="form-control me-2" type="text" placeholder="What are you looking for?">
+                        <i class="fa-solid fa-magnifying-glass text-secondary m-3"></i>
+                    </form>
+                  </ul>
+                  
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
 
 <!-- ------------------------------navbar end--------------------- -->
 
@@ -106,10 +151,10 @@
     </div>
     
     <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" style="padding-right: 240px">
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" style="padding-left: 250px";>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
     </div>
@@ -201,10 +246,10 @@
   
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev" style="padding-right: 140px;">
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev" >
             <span class="carousel-control-prev-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next" style="padding-left: 140px;">
+          <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
           </button>
         </div>
@@ -308,7 +353,7 @@
 </div>
 <!-- ------------animated slide------------------------------ -->
 
-<div class="main">
+<div class="main1">
   <div class="carousel slide" data-bs-ride="carousel">
 
 
@@ -538,6 +583,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
