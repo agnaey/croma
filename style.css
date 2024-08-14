@@ -25,13 +25,32 @@
   animation:2s forwards;
   animation-timing-function:scroll() ;
 } */
+#aniimg{
 
+  animation-name: example4;
+  animation-duration: 3s;
+}
+
+@keyframes example4 {
+  0%   { opacity:0.1;}
+  100%  {opacity:1;}
+
+}
 .scrollhd{
   color: white;
   position:absolute;
   top: 25%;
   left: 47%;
   font-size: 2vw;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   { left:70%; top:25%;opacity:0.1;}
+  100%  { left:47%; top:25%;opacity:1;}
+
 }
 /* .moveFromTop{
   animation-name: moveFromRight}
@@ -48,11 +67,27 @@
   left: 47%;
   font-size: 1vw;
 
+  animation-name: example1;
+  animation-duration: 2s;
+}
+
+@keyframes example1 {
+  0%   { left:70%; top:45%;opacity:0.1;}
+  100%  { left:47%; top:45%;opacity:1;}
+
 }
 .readmore{
   position: absolute;
   top: 55%;
   left: 47%;
+  animation-name: example2;
+  animation-duration: 2s;
+}
+
+@keyframes example2 {
+  0%   { left:70%; top:55%;opacity:0.1;}
+  100%  { left:47%; top:55%;opacity:1;}
+
 }
 .readmorebtn{
   font-size: 1vw;
@@ -117,15 +152,29 @@
       background-color: #007b8c;
     }
     .footer .copyright {
-      margin-top: 20px;
+      margin-top: 10px;
       font-size: 12px;
     }
 #ww:hover{
     color: red;
+    
 }
 
 
+/* div {
+  width: 100px;
+  height: 100px;
+ 
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
 
+@keyframes example {
+  0%   { left:200px; top:0px;opacity:0.1;}
+  25%  { left:00px; top:0px;opacity:1;}
+
+} */
 
 
 @media screen and (max-width: 1200PX){
