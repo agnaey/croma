@@ -152,6 +152,7 @@
       background-color: #007b8c;
     }
     .footer .copyright {
+      padding: 0;
       margin-top: 10px;
       font-size: 12px;
     }
